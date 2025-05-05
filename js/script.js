@@ -3,16 +3,16 @@
 // Created by: Trisha Ray
 // Created on: April 2025
 // This file contains the JS functions for index.html
+
 'use strict'
 
 function calculate() {
   // process
   const theAge = parseInt(document.getElementById("age").value);
-  const ticketOne = document.getElementById("option-Tuesday").checked;
-  const ticketTwo = document.getElementById("option-Thursday").checked;
+  const day = document.getElementById("days").checked;
 
   // input
-  if  (ticketOne || ticketTwo || (theAge > 12 && theAge < 21)) {
+  if  ( day == "3" || day == "5" || (theAge > 12 && theAge < 21)) {
   
     // output
   
